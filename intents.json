@@ -2,7 +2,7 @@
   "intents": [
     {
       "tag": "greetings",
-      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "What's up", "What's good", "how's it going"],
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "What's up", "What's good", "How's it going"],
       "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?", "What's good my dude?"]
     },
     {
@@ -34,18 +34,12 @@
         "Future technology",
         "Future trends",
         "What will the future be like?",
-        "Futuristic concepts"
-      ],
-      "responses": [
-        "The future is a fascinating topic! What specific aspect are you interested in?",
-        "The future holds endless possibilities. What would you like to know more about?",
-        "Futurism is exciting! What can I help you explore about the future?",
-        "Let's dive into the future together. What's on your mind?"
-      ]
-    },
-    {
-      "tag": "technology",
-      "patterns": [
+        "Futuristic concepts",
+        "Envision the future",
+        "The future of humanity",
+        "Tomorrow's world",
+        "Emerging trends",
+        "Future possibilities",
         "Tell me about futuristic technology",
         "Emerging technologies",
         "Future of AI",
@@ -55,25 +49,152 @@
         "Biotechnology advances"
       ],
       "responses": [
+        "The future is a fascinating topic! What specific aspect are you interested in?",
+        "The future holds endless possibilities. What would you like to know more about?",
+        "Futurism is exciting! What can I help you explore about the future?",
+        "Let's dive into the future together. What's on your mind?",
         "Futuristic technology is evolving rapidly. What specific technology interests you?",
         "The future of technology is bright. What area of tech are you curious about?",
-        "Technology is a key part of futurism. What would you like to learn more about?"
-      ]
-    },
-    {
-      "tag": "space",
-      "patterns": [
-        "Explore space",
-        "Future of space exploration",
-        "Extraterrestrial life",
-        "Mars colonization",
-        "Interstellar travel",
-        "Cosmic mysteries"
-      ],
-      "responses": [
+        "Technology is a key part of futurism. What would you like to learn more about?",
         "Space is a vast frontier! What aspect of space exploration fascinates you?",
         "The future of space travel is thrilling. What would you like to discuss?",
         "Space is full of mysteries. What cosmic topics are on your mind?"
+      ]
+    },
+    {
+      "tag": "trend-analysis",
+      "patterns": [
+        "Analyze current trends",
+        "Trend prediction",
+        "Identify industry trends",
+        "Trend analysis",
+        "Spotting trends",
+        "Upcoming trends",
+        "Market trends",
+        "Future market analysis",
+        "Business trends",
+        "Technology trends",
+        "Social trends",
+        "Cultural trends",
+        "Best trend analysis tools",
+        "Trend forecasting software",
+        "Analytics for trend analysis",
+        "Top trend analysis platforms",
+        "Tools for spotting trends",
+        "Business trend analysis"
+      ],
+      "responses": [
+        "Trend analysis is crucial for staying ahead. Which industry or field interests you?",
+        "Predicting trends is both art and science. What area would you like to explore?",
+        "Identifying industry trends can lead to innovation. What industry are you curious about?",
+        "Spotting trends is a valuable skill. Where would you like to apply it?",
+        "Upcoming trends can shape markets. Which market intrigues you?",
+        "Market trends can be game-changers. Which market are you interested in?",
+        "Analyzing the future market is insightful. What market trends do you want to discuss?",
+        "Business trends drive success. What aspect of business are you focused on?",
+        "Technology trends are transformative. Which tech trend fascinates you?",
+        "Social trends shape our society. What social trend would you like to explore?",
+        "Cultural trends reflect our society's evolution. What cultural trend do you find intriguing?",
+        "Analyzing trends is easier with the right tools. Consider these top choices:",
+        "Stay ahead with trend forecasting software. Here are some recommendations:",
+        "Analytics tools can aid in trend analysis. Explore these options:",
+        "Spotting trends is a breeze with these top platforms:",
+        "Unlock the power of trend analysis with these essential tools:",
+        "Business trend analysis tools can provide valuable insights. Check out these options:"
+      ]
+    },
+    {
+      "tag": "futurism-books",
+      "patterns": [
+        "Recommend futurism books",
+        "Best futurism books",
+        "Top futurism authors",
+        "Must-read futurism literature",
+        "Books about the future",
+        "Futurist book suggestions"
+      ],
+      "responses": [
+        "Exploring futurism through books is a fantastic journey. Here are some recommendations:",
+        "If you're interested in futurism literature, consider these top picks:",
+        "Futurism books offer unique perspectives on the future. Check out these authors:",
+        "Dive into the world of the future with these must-read books:",
+        "Books about the future can be mind-expanding. Here are some great choices:",
+        "Discover futurist visions in these remarkable books:"
+      ]
+    },
+    {
+      "tag": "diversity",
+      "patterns": [
+        "What is diversity?",
+        "Why is diversity important?",
+        "Benefits of diversity",
+        "Embracing diversity",
+        "Cultural diversity",
+        "Diversity in the workplace",
+        "Diverse perspectives",
+        "Diversity in society",
+        "Inclusive communities"
+      ],
+      "responses": [
+        "Diversity refers to the presence of a variety of different identities and backgrounds.",
+        "Diversity is important because it fosters creativity, innovation, and a richer society.",
+        "The benefits of diversity include a wider range of perspectives and better problem-solving.",
+        "Embracing diversity means recognizing and valuing differences among individuals.",
+        "Cultural diversity enriches our global community by celebrating various cultures.",
+        "Promoting diversity in the workplace leads to a more inclusive and dynamic environment.",
+        "Diverse perspectives contribute to well-rounded decision-making and creativity.",
+        "Diversity in society reflects the richness of human experiences and backgrounds.",
+        "Inclusive communities welcome and support people of all backgrounds and identities."
+      ]
+    },
+    {
+      "tag": "equity",
+      "patterns": [
+        "What is equity?",
+        "Why is equity important?",
+        "Equality vs. equity",
+        "Achieving equity",
+        "Social justice",
+        "Equitable access",
+        "Equity in education",
+        "Equity in healthcare",
+        "Promoting fairness"
+      ],
+      "responses": [
+        "Equity is about fairness and ensuring that everyone has the opportunity to succeed.",
+        "Equity is important because it addresses historical and systemic inequalities.",
+        "Equality aims to treat everyone the same, while equity seeks to address individual needs.",
+        "Achieving equity requires dismantling barriers and addressing systemic biases.",
+        "Social justice focuses on ensuring fair treatment and equal rights for all.",
+        "Equitable access means that everyone has the same opportunities regardless of their background.",
+        "Equity in education aims to provide equal access to quality learning opportunities.",
+        "Equity in healthcare ensures that healthcare resources are distributed fairly.",
+        "Promoting fairness and equity leads to a more just and inclusive society."
+      ]
+    },
+    {
+      "tag": "inclusion",
+      "patterns": [
+        "What is inclusion?",
+        "Why is inclusion important?",
+        "Inclusive workplaces",
+        "Creating inclusive environments",
+        "Belonging and inclusion",
+        "Inclusive leadership",
+        "Fostering inclusivity",
+        "Inclusion in organizations",
+        "Building inclusive communities"
+      ],
+      "responses": [
+        "Inclusion means creating environments where everyone feels valued and included.",
+        "Inclusion is important because it promotes diversity and allows everyone to thrive.",
+        "Inclusive workplaces prioritize diversity and create a sense of belonging for all employees.",
+        "Creating inclusive environments involves breaking down barriers and biases.",
+        "Belonging and inclusion go hand in hand, as everyone should feel like they belong.",
+        "Inclusive leadership involves promoting inclusivity at all levels of an organization.",
+        "Fostering inclusivity requires ongoing efforts to promote diversity and equity.",
+        "Inclusion in organizations leads to improved innovation and employee satisfaction.",
+        "Building inclusive communities benefits everyone by fostering understanding and unity."
       ]
     }
   ]
